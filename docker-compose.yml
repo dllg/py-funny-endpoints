@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  py-funny-endpoints:
+    build: .
+    image: py-funny-endpoints
+    ports:
+      - "5000:5000"

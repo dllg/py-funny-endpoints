@@ -21,6 +21,19 @@ $ cd funny-endpoints
 $ poetry run funny
 ```
 
+## Docker
+### Building
+To build for docker invoke:
+```bash
+docker-compose build
+```
+
+### Running
+To run the application in docker invoke:
+```bash
+docker-compose up -d
+```
+
 ## Examples of using it
 ### Get an advice
 ```bash
